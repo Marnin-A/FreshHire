@@ -1,0 +1,40 @@
+.nav_Bar {
+  font-family: "Clash Grotesk", sans-serif;
+  font-weight: 700;
+  display: grid;
+  grid-template-columns: 0.7fr 1fr 0.5fr;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  margin-left: 25%;
+  margin-right: 75%;
+}
+.nav_Links {
+  display: flex;
+  gap: 3em;
+}
+.nav_Links > * {
+  text-decoration: none;
+  color: black;
+}
+.signup_area {
+  font-family: "Clash Grotesk", sans-serif;
+  padding-right: 30%;
+  display: flex;
+  gap: 1em;
+}
+.signup_area > * {
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  outline: none;
+  border: 2px solid #0f5e36;
+}
+.signup_area button:nth-child(1) {
+  color: white;
+  background-color: #0f5e36;
+}
+.signup_area button:nth-child(2) {
+  color: #0f5e36;
+  background-color: white;
+}
