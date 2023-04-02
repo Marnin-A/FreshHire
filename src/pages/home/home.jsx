@@ -1,9 +1,13 @@
 import React from "react";
+import JobBoard from "../../sections/JobBoard/JobBoard";
+import HowItWorks from "../../sections/HowItWorks/howItWorks";
+
 
 export default function Home() {
   return (
     <div>
-      <h1>Welcome to Fresh Hire👋</h1>
+      <HowItWorks />
+      <JobBoard />
     </div>
   );
 }

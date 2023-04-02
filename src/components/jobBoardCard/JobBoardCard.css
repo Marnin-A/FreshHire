@@ -1,0 +1,36 @@
+.card {
+    max-width: 378px;
+    border: 1px solid #0F5E36;
+    background-color: white;
+    font-family: "Clash Grotesk", sans-serif;
+    border-radius: 8px;
+}
+
+.tag {
+display: flex;
+flex-direction: column;
+gap: 8px;
+}
+
+.arrow {
+    font-size: 1.5rem;
+    margin-left: auto;
+}
+
+.top {
+    padding: 10px 1.2rem;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+.middle {
+    padding: 10px 1.2rem;
+    border-bottom: 1px solid gray;
+}
+
+.bottom {
+    padding: 10px 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

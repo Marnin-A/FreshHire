@@ -1,0 +1,41 @@
+.howItWorks {
+    /* background-color: #FBFCFB; */
+    padding: 2rem;
+}
+
+.howItWorksContainerTop {
+    text-align: center;
+    color: #0F5E36;
+}
+.howItWorksContainerTop > .title {
+    font-weight: 600;
+    padding: 8px 1.5rem;
+    font-size: 1rem;
+    color: #0F5E36;
+    display: inline-block;
+    border: 1px solid #0F5E36;
+    border-radius: 8px;
+    margin: 1rem 0;
+}
+
+.howItWorksContainerTop > p {
+    color: black;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.howItWorksContainerTop > h4 {
+    margin-bottom: 0.3rem;
+}
+
+.howItWorksCards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.howItWorksContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+}
