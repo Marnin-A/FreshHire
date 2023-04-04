@@ -1,7 +1,9 @@
 .profile_card {
   display: grid;
   width: 50%;
-  grid-template-columns: 20% 80%;
+  grid-template-columns: 25% 75%;
+  align-items: center;
+  padding: 2% 1%;
 }
 .profile_card_right {
   display: flex;

@@ -116,6 +116,24 @@
 }
 .free_profile_bottom {
   margin-top: 2.25em;
+  display: flex;
+  flex-wrap: wrap;
+}
+.get_started_btn {
+  font-family: "Clash Grotesk", sans-serif;
+  background-color: #0f5e36;
+  padding: 0.625em 1em;
+  border-radius: 0.25em;
+  border: none;
+  color: white;
+}
+.prices_btn {
+  font-family: "Clash Grotesk", sans-serif;
+  background-color: #585858;
+  padding: 0.625em 1em;
+  border-radius: 0.25em;
+  border: none;
+  color: white;
 }
 @media only screen and (max-width: 1000px) {
   .explore_body {
