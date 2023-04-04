@@ -143,4 +143,8 @@
   .explore_body > div {
     width: 100%;
   }
+  .free_profile_bottom {
+    display: flex;
+    flex-direction: column;
+  }
 }
