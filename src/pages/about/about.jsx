@@ -3,6 +3,8 @@ import styles from "./about.module.css";
 import UsersImg from "../../assets/Component3.png";
 import Logo from "../../assets/Fresh_hire.png";
 import StatsImg from "../../assets/Frame154.png";
+import ProfileImg1 from "../../assets/rafiki.png";
+import ProfileCard from "../../components/profileCard/ProfileCard";
 
 export default function About() {
   return (
@@ -88,6 +90,23 @@ export default function About() {
               <p>Uncover actionable insight to drive improvement</p>
             </div>
           </div>
+        </div>
+      </section>
+      <section className={styles.free_profile}>
+        <div className={styles.profile_header}>
+          <h3 id={styles.profile_header}>Free Employee Profile</h3>
+        </div>
+        <div id={styles.profile_mid}>
+          By creating your professional profile on our platform, you can
+          showcase your skills and experience to potential employers, helping
+          you stand out in a crowded job market
+        </div>
+        <div className={styles.free_profile_bottom}>
+          <ProfileCard
+            img={ProfileImg1}
+            header="Tell your story"
+            text="Your employee profile is an opportunity to showcase your unique strengths and experiences. Use this space to tell your story and highlight what sets you apart from other job seekers. By giving employers a glimpse into your personality and background, you can make a strong impression and increase your chances of landing your dream job."
+          />
         </div>
       </section>
     </div>
