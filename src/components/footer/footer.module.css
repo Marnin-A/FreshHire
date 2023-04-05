@@ -1,13 +1,78 @@
 .footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.subscribe {
+  width: 80%;
+  display: grid;
+  grid-template-columns: 65% 35%;
+  background: linear-gradient(94.42deg, #d9efe2 0.25%, #f9e9e9 101.15%);
+  border-radius: 2.5em;
+  margin-bottom: -2.5%;
+  padding: 5.1875em 3% 3% 3%;
+  align-items: center;
+  position: relative;
+}
+
+.subscribe_text {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.25em;
+  line-height: 150%;
+  color: #0f5e36;
+  max-width: 70%;
+  margin-bottom: 0.7em;
+}
+.add_email {
+  font-family: "Clash Grotesk";
+  padding: 0.3125em;
+  background-color: white;
+  width: max-content;
+  border: 1px solid #dbdbdb;
+  border-radius: 1.25em;
+  height: auto;
+}
+#add_email {
+  font-family: "Clash Grotesk";
+  border: none;
+  outline: none;
+  color: #0f5e36;
+  font-weight: 600;
+  text-align: center;
+}
+#add_email::placeholder {
+  font-family: "Clash Grotesk";
+  font-weight: 600;
+  color: #0f5e36;
+}
+.subscribe_btn {
+  font-family: "Clash Grotesk";
+  background: #0f5e36;
+  color: white;
+  border: 1px solid #dbdbdb;
+  border-radius: 20px;
+  padding: 7px 37px;
+  letter-spacing: 1px;
+}
+#LadyImg {
+  height: auto;
+  width: auto;
+  position: absolute;
+  bottom: 0%;
+}
+.footer_bottom {
   font-family: "Clash Grotesk", sans-serif;
   background-color: #0f5e36;
   padding: 3.625em 3.75em;
-
   color: white;
   display: grid;
+  z-index: -1;
+  width: 100%;
 }
 .footer_details {
   grid-template-columns: 25% 70%;
+  margin-top: 4.875em;
   margin-bottom: 4.5em;
   display: grid;
   gap: 5%;
@@ -38,7 +103,7 @@
   display: flex;
   gap: 17%;
 }
-.footer > hr {
+.footer_bottom > hr {
   border: 1px solid white;
   width: 100%;
 }
