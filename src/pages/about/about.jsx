@@ -103,7 +103,7 @@ export default function About() {
         <div className={styles.profile_header}>
           <h3 id={styles.profile_header}>Free Employee Profile</h3>
         </div>
-        <div id={styles.profile_mid}>
+        <div className={styles.profile_mid}>
           By creating your professional profile on our platform, you can
           showcase your skills and experience to potential employers, helping
           you stand out in a crowded job market
@@ -136,11 +136,11 @@ export default function About() {
           </button>
         </div>
       </section>
-      <section className={styles.free_profile}>
+      <section className={styles.premium_profile}>
         <div className={styles.profile_header}>
           <h3 id={styles.profile_header}>Premium Employee Profile</h3>
         </div>
-        <div id={styles.profile_mid}>
+        <div className={styles.premium_profile_mid}>
           By upgrading to our premium version and creating a professional
           profile on our platform, you can effectively highlight your skills and
           experience to potential employers, making yourself more noticeable in

@@ -76,6 +76,8 @@
 }
 #users > img {
   width: 60%;
+  margin-top: 4%;
+  margin-left: 8%;
   height: auto;
 }
 .difference_bottom_info {
@@ -96,6 +98,14 @@
   flex-direction: column;
   align-items: center;
   padding: 5.1875em 7.75em;
+  background-color: #fbfcfb;
+}
+.premium_profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5.1875em 7.75em;
+  background-color: #fff;
 }
 .profile_header {
   display: flex;
@@ -109,9 +119,14 @@
   padding: 0.625em 2.4375em;
   margin-bottom: 1.125em;
 }
-#profile_mid {
+.profile_mid {
   text-align: center;
-  width: 62%;
+  max-width: 62%;
+  margin-bottom: 1.125em;
+}
+.premium_profile_mid {
+  text-align: center;
+  max-width: 80%;
   margin-bottom: 1.125em;
 }
 .free_profile_bottom {
