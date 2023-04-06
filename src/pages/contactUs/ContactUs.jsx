@@ -1,5 +1,5 @@
 import React from "react";
 
-export default function Help() {
+export default function ContactUs() {
   return <div>help</div>;
 }
