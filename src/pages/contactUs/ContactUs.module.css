@@ -1,0 +1,113 @@
+.contactUs {
+  margin: 0% 7.5%;
+  display: flex;
+  flex-direction: column;
+}
+.search_topic {
+  width: 100%;
+  display: flex;
+  color: white;
+  flex-direction: column;
+  padding: 7.875em 20.0625em 10.125em 20.0625em;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../../assets/concentrated-african-american-call-center-operator-working1.png);
+  margin-bottom: 5%;
+}
+#search_topic_text {
+  font-size: 2.25em;
+  margin-bottom: 0.6875em;
+}
+#search_topic {
+  width: 100%;
+  background-color: white;
+  display: grid;
+  padding: 0.8125em 1em;
+  grid-template-columns: 10% 70% 20%;
+  align-items: center;
+  border-radius: 4px;
+}
+#search_topic > input {
+  font-family: "Clash Grotesk", sans-serif;
+  font-weight: 600;
+  color: #e7e7e7;
+  border: none;
+}
+#search_topic > button {
+  font-family: "Clash Grotesk", sans-serif;
+  color: white;
+  background-color: #0f5e36;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  border: none;
+}
+.employee_help {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  margin-bottom: 8%;
+}
+.employee_help_top {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+#employee_help_header {
+  padding: 0.6875em 1.4375em;
+  border: 1px solid #0f5e36;
+  border-radius: 1.25em;
+  color: #0f5e36;
+  font-weight: 500;
+  width: max-content;
+}
+.employee_help_top div:nth-child(2) {
+  color: #2e4238;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+}
+.employee_help_top div:nth-child(2):hover {
+  cursor: pointer;
+}
+.employee_help_top div:nth-child(2) > span > span {
+  color: #0f5e36;
+}
+.employee_help_bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.25em;
+}
+.employee_help_bottom > div {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+.help_card {
+  padding: 2em 2.21875em;
+  color: #0f5e36;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #0f5e36;
+  margin: 1.875em;
+  width: 75%;
+}
+#help_card_header {
+  margin-bottom: 5%;
+}
+.employer_help_top {
+  display: flex;
+  justify-content: space-between;
+}
+.employer_help_top div:nth-child(2) {
+  color: #b4b4b4;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+}
+.employer_help_top div:nth-child(2) > span > span {
+  color: #0f5e36;
+}
