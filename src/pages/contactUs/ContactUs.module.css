@@ -30,7 +30,7 @@
 #search_topic > input {
   font-family: "Clash Grotesk", sans-serif;
   font-weight: 600;
-  color: #e7e7e7;
+  outline: none;
   border: none;
 }
 #search_topic > button {
