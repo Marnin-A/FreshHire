@@ -22,14 +22,15 @@ export default function About() {
         </div>
         <div className={styles.explore_body}>
           <div className={styles.explore_body_left}>
-            <h3>Welcome to Fresh Hire,</h3>
+            <h3 id={styles.welcome}>Welcome to Fresh Hire</h3>
             <p>
-              the job platform designed specifically for fresh graduates and
+              We are a platform designed specifically for fresh graduates and
               employers seeking to connect with them. We understand that finding
-              a job after graduation can be challenging, which is why we've
+              a job after graduation can be challenging, which is why we’ve
               created a platform that helps bridge the gap between job seekers
               and potential employers.
             </p>
+            <h3>For Job seekers</h3>
             <p>
               For job seekers, Fresh Hire offers an easy-to-use platform to
               search for job opportunities based on their qualifications,
@@ -38,6 +39,7 @@ export default function About() {
               and entry-level positions. Our job search tool is designed to make
               the job hunting process efficient and stress-free.
             </p>
+            <h3>For Employers</h3>
             <p>
               For employers, Fresh Hire provides a platform to find the best and
               brightest young talent. We know how important it is to find the
@@ -46,21 +48,18 @@ export default function About() {
               user-friendly job posting system allows you to quickly and easily
               advertise job openings to our network of qualified job seekers.
             </p>
+            <h3>Our Mission/Vision</h3>
             <p>
-              At Fresh Hire, our mission is to create a seamless connection
-              between job seekers and employers, and to help young professionals
-              kickstart their careers. We believe that every graduate deserves a
-              fair shot at a fulfilling career, and we're committed to helping
-              you achieve your goals.
-            </p>
-            <p>
-              Thank you for choosing Fresh Hire, and we look forward to working
-              with you!
+              At Fresh Hire, our Mission and Vision is to create a seamless
+              connection between job seekers and employers, and to help young
+              professionals kickstart their careers. We believe that every
+              graduate deserves a fair shot at a fulfilling career, and we're
+              committed to helping you achieve your goals.
             </p>
           </div>
-          <div className={styles.explore_body_right}>
+          {/* <div className={styles.explore_body_right}>
             <img src={StatsImg} alt="Site statistics" />
-          </div>
+          </div> */}
         </div>
         <button className={styles.explore_btn}>Explore more</button>
       </section>
