@@ -1,0 +1,46 @@
+.aboutUs__container {
+  padding: 4rem 1rem;
+  background: #fbfcfb;
+  background-image: url(../../assets/Frame146.png);
+}
+
+.aboutUs__title {
+  font-weight: 600;
+  padding: 8px 1.5rem;
+  font-size: 1rem;
+  color: #0f5e36;
+  display: inline-block;
+  border: 1px solid #0f5e36;
+  border-radius: 8px;
+  margin: 1rem 0;
+}
+
+.aboutUs {
+  display: flex;
+  max-width: 1150px;
+  margin: 0 auto;
+  gap: 3rem;
+  align-items: center;
+}
+
+.aboutUs__right__content {
+  max-width: 560px;
+}
+
+.aboutUs__right h3 {
+  color: #0f5e36;
+  margin-bottom: 1.2rem;
+}
+
+.aboutUs__right p {
+  margin-bottom: 1.2rem;
+}
+
+.aboutUs__right button {
+  padding: 8px 1.5rem;
+  background: #0f5e36;
+  margin-top: 1rem;
+  border: none;
+  color: white;
+  border-radius: 8px;
+}

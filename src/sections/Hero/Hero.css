@@ -1,0 +1,46 @@
+.hero {
+  padding: 3rem 1rem;
+  background: linear-gradient(134.97deg, #a7ecc3 -15.9%, #f6f3f7 84.6%);
+  /* filter: blur(100px); */
+}
+
+.hero__container {
+  max-width: 1150px;
+  margin: 0 auto;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.hero__left {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.hero__left h1 {
+  color: #0f5e36;
+  font-size: 2.7rem;
+}
+
+.hero__left__postjob,
+.hero__left__bottom {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.hero__left__postjob button {
+  padding: 8px 1.5rem;
+  background: #0f5e36;
+  margin-top: 1rem;
+  border-radius: 8px;
+  border: none;
+  color: white;
+}
+
+.hero__left__postjob p {
+  color: #0f5e36;
+  margin-bottom: -0.75rem;
+  text-decoration: underline;
+}

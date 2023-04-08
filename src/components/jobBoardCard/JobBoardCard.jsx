@@ -1,22 +1,22 @@
 import React from 'react'
 import './JobBoardCard.css'
 
-const JobBoardCard = () => {
+const JobBoardCard = ({brandImg,jobTitle,company, description, location, salaryRange, jobType}) => {
   return (
-    <div className="card">
-      <div className="top">
-        <img src="https://cdn1.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-snapchat-2019-circle-512.png" alt="" width={50} height={50}/>
-        <div className="tag">
-          <p>UI/UX Designer</p>
-          <p>Snapchat</p>
+    <div className="jobBoardcard">
+      <div className="jobBoardcard__top">
+        <img src={brandImg} alt="" width={50} height={50} />
+        <div className="jobBoardcard__tag">
+          <p>{jobTitle}</p>
+          <p>{company}</p>
         </div>
-        <p className="arrow">&rarr;</p>
+        <p className="jobBoardcard__arrow">&rarr;</p>
       </div>
-      <p className="middle">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, inventore quia voluptatibus molestias laboriosam nihil?</p>
-      <div className="bottom">
-        <p>USA</p>
-        <p>3000N - 5000/Month</p>
-        <p>Remote</p> 
+      <p className="jobBoardcard__middle">{description}</p>
+      <div className="jobBoardcard__bottom">
+        <p>{location}</p>
+        <p>{salaryRange}</p>
+        <p>{jobType}</p>
       </div>
     </div>
   )

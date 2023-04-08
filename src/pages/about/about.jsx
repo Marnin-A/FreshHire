@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./about.module.css";
 import UsersImg from "../../assets/Component3.png";
 import Logo from "../../assets/Fresh_hire.png";
-import StatsImg from "../../assets/Frame154.png";
+import StatsImg from "../../assets/jobsFrame.png";
 import ProfileImg1 from "../../assets/rafiki.png";
 import ProfileImg2 from "../../assets/cuate.png";
 import ProfileImg3 from "../../assets/cuate1.png";

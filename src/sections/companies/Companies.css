@@ -1,0 +1,19 @@
+.companies {
+    padding-block: 3rem;
+    text-align: center;
+    background: white;
+    color: #0f5e36;
+}
+
+.companies__container {
+    max-width: 1150px;
+    margin: 0 auto;
+
+}
+
+.companies__logos {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
