@@ -20,6 +20,7 @@
 
 .whyFreshHire__left {
   padding: 2.5rem;
+  padding-right: 0;
   background: #edf9f3;
   width: 430px;
   height: 480px;
@@ -31,6 +32,12 @@
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+}
+
+.whyFreshHire__left__content > p {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
 .whyFreshHire__title {
@@ -67,12 +74,8 @@
   align-items: center;
 }
 
-.whyFreshHire img {
+.whyFreshHire__female__illustration {
   position: absolute;
-  /* left: 50%;
-  transform: translateX(-50%);
-  width: 345.32px;
-  height: 338px; */
   margin: auto;
   top: 0;
   left: 0;

@@ -1,6 +1,6 @@
 .jobBoard {
   background-color: #fbfcfb;
-  padding: 2rem;
+  padding: 3rem;
 }
 
 .jobBoardContainer {
@@ -27,10 +27,33 @@
   margin-bottom: 0.3rem;
 }
 
+.jobBoard__middle {
+  max-width: 250px;
+  margin: 0 auto;
+  margin-top: 2rem;
+  display: flex;
+  border: 1px solid #0f5e36;
+  border-radius: 12px;
+  padding: 4px 10px;
+}
+
+.jobBoard__middle > p {
+  font-weight: 600;
+  padding: 8px 2rem;
+  border-radius: 1rem;
+  color: #0f5e36;
+  width: 100%;
+}
+
+.jobBoard__middle > .active {
+  background-color: #0f5e36;
+  color: white;
+}
+
 .jobBoardCards {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(372px, 1fr));
   /* grid-template-columns: repeat(3, 1fr); */
   gap: 1rem;
-  margin-top: 2rem;
+  margin-top: 3rem;
 }

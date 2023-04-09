@@ -1,4 +1,4 @@
-import personalData from "../../assets/personalData.png"
+import heroImage from "../../assets/hero__image.png"
 import './Hero.css'
 
 const Hero = () => {
@@ -19,7 +19,7 @@ const Hero = () => {
                 </div>
 
                 <div className="hero__right">
-                    <img src={personalData} alt="" />
+                    <img src={heroImage} alt="hero image" />
                 </div>
             </div>
 

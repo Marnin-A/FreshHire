@@ -12,12 +12,12 @@ const Companies = () => {
         <div className="companies__container">
             <h2>Trusted by 1000+ best hiring companies world wide</h2>
             <div className="companies__logos">
-                <img src={Google} alt="" />
-                <img src={HubSport} alt="" />
-                <img src={Figma} alt="" />
-                <img src={Udemy} alt="" />
-                <img src={Tesla} alt="" />
-                <img src={Microsoft} alt="" />
+                <img src={Google} alt="google" />
+                <img src={HubSport} alt="hubspot" />
+                <img src={Figma} alt="figma" />
+                <img src={Udemy} alt="udemy" />
+                <img src={Tesla} alt="tesla" />
+                <img src={Microsoft} alt="microsoft" />
             </div>
         </div>
     </div>

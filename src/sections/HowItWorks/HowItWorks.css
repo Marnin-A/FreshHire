@@ -34,11 +34,13 @@
   grid-template-columns: repeat(auto-fill, minmax(262px, 1fr));
   /* grid-template-columns: repeat(4, 1fr); */
   gap: 1.8rem;
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 
+
+
 .personalData {
-  margin-top: 2rem;
+  margin-top: 3rem;
   margin-bottom: 1rem;
   padding: 1.5rem 3rem;
   padding-bottom: 0;
