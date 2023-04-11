@@ -1,0 +1,43 @@
+.jobListingFilters {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 10%;
+  gap: 2%;
+  align-items: center;
+}
+.filters {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #0f5e36;
+  border-radius: 4px;
+  padding: 0.80625em 0.8875em;
+  align-items: center;
+  min-height: 4em;
+}
+#filter_text {
+  display: flex;
+  flex-direction: column;
+}
+#filter_title {
+  font-weight: 500;
+  font-size: 0.625em;
+  color: #b4b4b4;
+}
+#cancel_btn {
+  width: 1em;
+  height: 1em;
+  background-image: url(../../assets/cancel.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+#search_btn {
+  font-family: "Clash Grotesk", sans-serif;
+  background-color: #0f5e36;
+  height: max-content;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  color: white;
+  border: none;
+}

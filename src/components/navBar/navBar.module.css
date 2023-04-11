@@ -20,14 +20,16 @@
   color: black;
 }
 .signup_area {
-  font-family: "Clash Grotesk", sans-serif;
   padding-right: 30%;
+
   display: flex;
   gap: 1em;
 }
 .signup_area > * {
+  font-family: "Clash Grotesk", sans-serif;
   padding: 0.5em 1em;
   border-radius: 4px;
+  cursor: pointer;
   outline: none;
   border: 2px solid #0f5e36;
 }

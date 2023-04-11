@@ -4,6 +4,7 @@ import About from "./pages/about/about";
 import ContactUs from "./pages/contactUs/ContactUs";
 import NavBar from "./components/navBar/navBar";
 import Footer from "./components/footer/footer";
+import JobListing from "./pages/jobListing/JobListing";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import PostJob from "./pages/postJob/postJob";
 
@@ -17,6 +18,7 @@ function App() {
           <Route path="FreshHire/about" element={<About />} />
           <Route path="FreshHire/contact_us" element={<ContactUs />} />
           <Route path="FreshHire/post_job" element={<PostJob />} />
+          <Route path="FreshHire/job_listing" element={<JobListing />} />
         </Routes>
         <Footer />
       </BrowserRouter>
