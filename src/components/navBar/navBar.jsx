@@ -14,7 +14,7 @@ export default function NavBar() {
         <Link to="FreshHire/">Home</Link>
         <Link to="FreshHire/about">About us</Link>
         <Link to="FreshHire/contact_us">Contact us</Link>
-        <Link to="#">Post a job</Link>
+        <Link to="FreshHire/post_job">Post a job</Link>
         <Link to="#">Job listings</Link>
       </div>
       <div className={styles.signup_area}>
