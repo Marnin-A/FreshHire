@@ -27,17 +27,21 @@
 }
 .signup_area > * {
   font-family: "Clash Grotesk", sans-serif;
-  padding: 0.5em 1em;
+  padding: 2% 4%;
   border-radius: 4px;
   cursor: pointer;
   outline: none;
   border: 2px solid #0f5e36;
+
+  max-height: min-content;
 }
 .signup_area button:nth-child(1) {
+  min-width: 4.875em;
   color: white;
   background-color: #0f5e36;
 }
 .signup_area button:nth-child(2) {
+  min-width: 8.3125em;
   color: #0f5e36;
   background-color: white;
 }
