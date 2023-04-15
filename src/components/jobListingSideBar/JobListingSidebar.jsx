@@ -1,5 +1,6 @@
 import { React, useState, useEffect } from "react";
 import chevron from "../../assets/chevron.svg";
+import tick from "../../assets/tickGreen.png";
 import styles from "./jobListingSidebar.module.css";
 export default function JobListingSidebar() {
   const randomStuff = [
@@ -25,7 +26,11 @@ function ToggleMenu({ title, options }) {
     transform: toggle ? "rotate(180deg)" : "rotate(0)",
     transition: "transform 150ms ease", // smooth transition
   };
-  const checkBoxStyle = { backgroundColor: isChecked ? "#0f5e36" : "white" };
+  const checkBoxStyle = {
+    backgroundImage: isChecked ? `url(${tick})` : "none",
+    backgroundSize: "contain",
+    backgroundRepeat: "no-repeat",
+  };
   const visible = {
     contentVisibility: !toggle ? "hidden" : "visible",
   };
@@ -41,21 +46,17 @@ function ToggleMenu({ title, options }) {
         <img src={chevron} style={style} className={styles.chevron} />
       </button>
       <div style={visible}>
-        <label htmlFor="editorial" className={styles.checkLabel}>
-          <div
+        <div className={styles.checkLabel}>
+          <span
             onClick={() => {
               setChecked(!isChecked);
             }}
-          >
-            <input
-              type="checkbox"
-              name="editorial"
-              id="editorial"
-              className={styles.checkBox}
-            />
-          </div>
-          Editorial
-        </label>
+            style={checkBoxStyle}
+            className={styles.checkBox}
+          />
+          <span>Full Time Jobs</span>
+          <span>78+</span>
+        </div>
       </div>
     </div>
   );
