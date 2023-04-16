@@ -1,11 +1,12 @@
 import "./postJob.css"
 import cheerfulwoman from '../../assets/cheerful-woman.png'
-import profile from '../../assets/Profile.png'
-import messageIcon from '../../assets/messageIcon.png'
-import manage from '../../assets/Vector.png'
-import postJob from '../../assets/Vector-1.png'
-import password from '../../assets/Vector-2.png'
-import logout from '../../assets/Vector-3.png'
+import profile from '../../assets/User_Circle.svg'
+import messageIcon from '../../assets/Chat.svg'
+import manage from '../../assets/Suitcase.svg'
+import postJob from '../../assets/Book_Open.svg'
+import password from '../../assets/Lock_Open.svg'
+import logout from '../../assets/Swicht_Left.svg'
+import arrow from "../../assets/Caret_Up_SM.svg";
 
 const PostJob = () => {
     return (
@@ -58,15 +59,18 @@ const PostJob = () => {
                         </div>
                         <div className='input__component'>
                             <label>Number of people</label>
-                            <input type="text" />
+                            <div style={{position: "relative"}}><input type="text" style={{width: "100%"}}/>
+                                <img src={arrow} alt="arrow" className="dropdown__arrow" /></div>
                         </div>
                         <div className='input__component'>
                             <label>How soon do you want to hire</label>
-                            <input type="text" />
+                            <div style={{position: "relative"}}><input type="text" style={{width: "100%"}}/>
+                                <img src={arrow} alt="arrow" className="dropdown__arrow" /></div>
                         </div>
                         <div className='input__component'>
                             <label>Show pay by</label>
-                            <input type="text" />
+                            <div style={{position: "relative"}}><input type="text" style={{width: "100%"}}/>
+                                <img src={arrow} alt="arrow" className="dropdown__arrow" /></div>
                         </div>
                         <div className='input__component'>
                             <label>Minimum salary</label>
@@ -78,12 +82,13 @@ const PostJob = () => {
                         </div>
                         <div className='input__component'>
                             <label>Rate</label>
-                            <input type="text" />
+                            <div style={{position: "relative"}}><input type="text" style={{width: "100%"}}/>
+                                <img src={arrow} alt="arrow" className="dropdown__arrow" /></div>
                         </div>
                     </div>
                     <div className='input__component' style={{ marginTop: '2rem', paddingInline: "1rem" }}>
                         <label>Job Description</label>
-                        <input type="text" />
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
                     </div>
                     <div className="postJob__check"><input type="checkbox" /> <p>by clicking on this, you have accepted our terms and conditions on job posting</p></div>
                     <button>Save</button>

@@ -16,7 +16,7 @@ export default function JobListingFilters() {
     </div>
   );
 }
-function Filter({ option, img, title }) {
+ export function Filter({ option, img, title }) {
   return (
     <div className={styles.filters}>
       <img src={img} alt="filter icon" />

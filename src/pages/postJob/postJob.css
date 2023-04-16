@@ -88,15 +88,22 @@
   padding-block: 0;
 }
 
-.postJob input {
-  padding: 10px 1rem;
+.postJob input, .postJob textarea {
+  padding: 14px 1rem;
   border-radius: 6px;
-  border: 1px solid #0f5e36;
+  border: 1px solid gray;
   outline: #0f5e36;
 }
 
+.dropdown__arrow {
+ width: 35px;
+ position: absolute;
+ right: 10px;
+ top: 4px;
+}
+
 .postJob label {
-  color: #0f5e36;
+  color: #2E4238;
   font-size: 0.8rem;
   font-weight: bold;
 }
