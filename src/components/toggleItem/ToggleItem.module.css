@@ -1,0 +1,35 @@
+.checkBox {
+  appearance: none;
+  border-radius: 0.12em;
+  margin-right: 5%;
+  width: 40%;
+  height: 45%;
+  border: 1.9px solid #0f5e36;
+  background-position: 50%;
+  display: flex;
+}
+.checkBox::before {
+  content: "";
+  transform: scale(0);
+  transition: 120ms transform ease-in-out;
+  transform-origin: bottom left;
+  clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+}
+.checkBox:checked::before {
+  transform: scale(1);
+}
+
+.checkLabel {
+  font-family: "Clash Grotesk", sans-serif;
+  white-space: nowrap;
+  display: grid;
+  grid-template-columns: 15% 70% 15%;
+  align-items: center;
+  justify-content: space-between;
+  color: #292929;
+  margin-bottom: 1.25em;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.875em;
+  line-height: 2em;
+}
