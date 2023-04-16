@@ -11,7 +11,7 @@
   padding: 7.875em 20.0625em 10.125em 20.0625em;
   align-items: center;
   justify-content: center;
-  background-image: url(../../assets/concentrated-african-american-call-center-operator-working1.png);
+  background-image: url(../../assets/concentrated-african-american-call-center-operator-working1.webp);
   margin-bottom: 5%;
 }
 #search_topic_text {
@@ -103,7 +103,7 @@
   justify-content: space-between;
 }
 .employer_help_top div:nth-child(2) {
-  color: #b4b4b4;
+  color: #2e4238;
   font-weight: 900;
   display: flex;
   align-items: center;
