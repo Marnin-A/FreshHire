@@ -1,5 +1,6 @@
 .companies {
     padding-block: 3rem;
+    padding-inline: 4%;
     text-align: center;
     background: white;
     color: #0f5e36;
@@ -15,5 +16,7 @@
     margin-top: 2rem;
     display: flex;
     align-items: center;
+    gap: 1rem;
     justify-content: space-between;
+    flex-wrap: wrap;
 }

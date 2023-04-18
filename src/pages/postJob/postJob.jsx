@@ -50,17 +50,8 @@ const PostJob = () => {
                             <input type="text" />
                         </div>
                         <div className='input__component'>
-                            <label>Company size</label>
-                            <input type="text" />
-                        </div>
-                        <div className='input__component'>
                             <label>Job Location</label>
                             <input type="text" />
-                        </div>
-                        <div className='input__component'>
-                            <label>Number of people</label>
-                            <div style={{position: "relative"}}><input type="text" style={{width: "100%"}}/>
-                                <img src={arrow} alt="arrow" className="dropdown__arrow" /></div>
                         </div>
                         <div className='input__component'>
                             <label>How soon do you want to hire</label>
@@ -73,17 +64,8 @@ const PostJob = () => {
                                 <img src={arrow} alt="arrow" className="dropdown__arrow" /></div>
                         </div>
                         <div className='input__component'>
-                            <label>Minimum salary</label>
+                            <label>Salary Range</label>
                             <input type="text" />
-                        </div>
-                        <div className='input__component'>
-                            <label>Maximum salary</label>
-                            <input type="text" />
-                        </div>
-                        <div className='input__component'>
-                            <label>Rate</label>
-                            <div style={{position: "relative"}}><input type="text" style={{width: "100%"}}/>
-                                <img src={arrow} alt="arrow" className="dropdown__arrow" /></div>
                         </div>
                     </div>
                     <div className='input__component' style={{ marginTop: '2rem', paddingInline: "1rem" }}>

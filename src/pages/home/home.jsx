@@ -12,7 +12,7 @@ export default function Home() {
     <div>
       <Hero />
       <Companies />
-      <AboutUsSection />
+      {/* <AboutUsSection /> */}
       <WhyFreshHire />
       <HowItWorks />
       <JobBoard />
