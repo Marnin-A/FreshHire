@@ -19,7 +19,6 @@ export default function NavBar() {
       </div>
       <div className={styles.signup_area}>
         <button>Sign up</button>
-        <button>Employer zone</button>
       </div>
     </div>
   );
