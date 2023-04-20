@@ -20,8 +20,10 @@ const HowItWorks = () => {
             <img src={personalData} alt="personal Data" />
           </div>
           <div className='personalData__right'>
-            <h3>Fill your Personal Info</h3>
-            <p>Complete your registration,  upload your resume and cover letter to start exploring jobs that match you.</p>
+            <div className="personalData__right__top">
+              <h3>Fill your Personal Info</h3>
+              <p>Complete your registration,  upload your resume and cover letter to start exploring jobs that match you.</p>
+            </div>
             <div className='personalData__right__bottom'>
               <p><span>Easy applying:</span> Create a captivating account </p>
               <p><span>Explore Jobs:</span>Upload your resume and other required documents to find best jobs that match you.</p>
@@ -30,8 +32,8 @@ const HowItWorks = () => {
         </div>
 
         <div className="howItWorksCards">
-          {howItWorks.map(({step, stepTitle, stepDesc}) =>(
-            <HowItWorksCard key={step} step={step} stepTitle={stepTitle} stepDesc={stepDesc}/>
+          {howItWorks.map(({ step, stepTitle, stepDesc }) => (
+            <HowItWorksCard key={step} step={step} stepTitle={stepTitle} stepDesc={stepDesc} />
           ))}
         </div>
 

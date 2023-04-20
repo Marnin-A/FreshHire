@@ -103,11 +103,13 @@
     display: none;
   }
 
-  .hero {
-    height: 100vh;
+  .hero__left {
+    margin-top: 20%;
   }
 
-  .hero__container {
-    display: block;
+  .hero {
+    height: 588px;
+    background: #a7ecc3e5;
   }
+
 }

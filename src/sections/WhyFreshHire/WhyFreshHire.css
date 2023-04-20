@@ -82,3 +82,40 @@
   bottom: 0;
   right: 0;
 }
+
+@media screen and (max-width: 860px) {
+  .whyFreshHire__female__illustration {
+    z-index: -10;
+  }
+
+  .whyFreshHire {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .whyFreshHire__left, .whyFreshHire__right {
+    width: 100vw;
+    display: flex;
+    place-content: center;
+    padding: 6%;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .whyFreshHire__left__content > p {
+    gap: 2rem;
+    font-size: 1.2rem;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  .whyFreshHire__left, .whyFreshHire__right {
+    max-width: 100%;
+  }
+
+  .whyFreshHire {
+    gap: 0;
+  }
+}
