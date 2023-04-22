@@ -13,11 +13,12 @@
 }
 .nav_Links {
   display: flex;
-  gap: 4em;
+  gap: 10%;
 }
 .nav_Links > * {
   text-decoration: none;
   color: black;
+  white-space: nowrap;
 }
 .signup_area {
   padding-right: 30%;
