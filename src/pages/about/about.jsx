@@ -30,31 +30,26 @@ export default function About() {
               created a platform that helps bridge the gap between job seekers
               and potential employers.
             </p>
-            <h3>For Job seekers</h3>
+            <h3>Our Vision Statement</h3>
             <p>
-              For job seekers, Fresh Hire offers an easy-to-use platform to
-              search for job opportunities based on their qualifications,
-              experience, and interests. We work with top employers in a variety
-              of industries to bring you the latest job openings, internships,
-              and entry-level positions. Our job search tool is designed to make
-              the job hunting process efficient and stress-free.
+              Our vision is to be the go-to platform for small businesses to
+              find and hire talented fresh graduates, and to help young
+              professionals jumpstart their careers.
             </p>
-            <h3>For Employers</h3>
+            <h3>Our Mission Statement</h3>
             <p>
-              For employers, Fresh Hire provides a platform to find the best and
-              brightest young talent. We know how important it is to find the
-              right employees to help grow your business, which is why we only
-              work with top-quality candidates who are committed to success. Our
-              user-friendly job posting system allows you to quickly and easily
-              advertise job openings to our network of qualified job seekers.
+              Our mission is to connect small businesses with high-potential
+              fresh graduates who are eager to make their mark in the
+              professional world. We aim to make the hiring process easy and
+              efficient for businesses while providing new graduates with the
+              opportunities they need to kick-start their careers.
             </p>
-            <h3>Our Mission/Vision</h3>
+            <h3>Our Value</h3>
             <p>
-              At Fresh Hire, our Mission and Vision is to create a seamless
-              connection between job seekers and employers, and to help young
-              professionals kickstart their careers. We believe that every
-              graduate deserves a fair shot at a fulfilling career, and we're
-              committed to helping you achieve your goals.
+              Our company is dedicated to helping small businesses grow by
+              providing equal opportunities for all applicants, supporting young
+              professionals, valuing transparency, and continuously improving
+              our services
             </p>
           </div>
           {/* <div className={styles.explore_body_right}>
