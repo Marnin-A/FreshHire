@@ -12,14 +12,17 @@
   align-items: center;
   justify-content: center;
   background-image: url(../../assets/concentrated-african-american-call-center-operator-working1.webp);
+  background-repeat: no-repeat;
   margin-bottom: 5%;
 }
 #search_topic_text {
   font-size: 2.25em;
   margin-bottom: 0.6875em;
+  white-space: nowrap;
 }
 #search_topic {
   width: 100%;
+  min-width: 347px;
   background-color: white;
   display: grid;
   padding: 0.8125em 1em;
