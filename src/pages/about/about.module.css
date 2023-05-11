@@ -9,6 +9,11 @@
   width: max-content;
   color: #0f5e36;
 }
+.explore_header_logo {
+  font-size: 1.5em;
+  font-weight: 600;
+  color: #29ad63;
+}
 .explore_body {
   display: flex;
   margin-top: 1.1875em;
@@ -139,6 +144,11 @@
   border: none;
   color: white;
 }
+.get_started_btn:hover {
+  background-color: white;
+  color: #0f5e36;
+  border: 1px solid #0f5e36;
+}
 .prices_btn {
   font-family: "Clash Grotesk", sans-serif;
   background-color: #0f5e36;
@@ -146,6 +156,11 @@
   border-radius: 0.25em;
   border: none;
   color: white;
+}
+.prices_btn:hover {
+  background-color: white;
+  color: #0f5e36;
+  border: 1px solid #0f5e36;
 }
 @media only screen and (max-width: 1000px) {
   .explore_body {

@@ -8,8 +8,15 @@
 }
 .logo {
   display: flex;
+  align-items: center;
+  color: #29ad63;
+  gap: 0.5em;
   margin-left: 25%;
   margin-right: 75%;
+  font-size: 2em;
+}
+.logo > img {
+  height: 1em;
 }
 .nav_Links {
   display: flex;
@@ -42,4 +49,8 @@
   font-size: 0.875em;
   background-color: white;
   padding: 0.5em 1em;
+}
+.signup_area button:nth-child(1):hover {
+  background-color: #0f5e36;
+  color: white;
 }
