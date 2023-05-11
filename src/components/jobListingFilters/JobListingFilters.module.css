@@ -41,3 +41,8 @@
   color: white;
   border: none;
 }
+#search_btn:hover {
+  background-color: white;
+  color: #0f5e36;
+  border: 1px solid #0f5e36;
+}

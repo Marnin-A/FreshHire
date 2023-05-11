@@ -25,15 +25,15 @@
 }
 
 .postJob__left__top__desc {
-    text-align: center;
-    margin-left: -2.3rem;
-    color: #0f5e36;
-    font-weight: bold;
+  text-align: center;
+  margin-left: -2.3rem;
+  color: #0f5e36;
+  font-weight: bold;
 }
 
 .postJob__left__top__desc > p > small {
-    color: #a5a1a1;
-    font-weight: 500;
+  color: #a5a1a1;
+  font-weight: 500;
 }
 
 .postJob__left__top p {
@@ -78,6 +78,11 @@
   background: #0f5e36;
   border: none;
 }
+.postJob__right > button:hover {
+  background-color: white;
+  color: #0f5e36;
+  border: 1px solid #0f5e36;
+}
 
 .postJob__inputs {
   display: grid;
@@ -87,7 +92,8 @@
   padding-block: 0;
 }
 
-.postJob input, .postJob textarea {
+.postJob input,
+.postJob textarea {
   padding: 14px 1rem;
   border-radius: 6px;
   border: 1px solid gray;
@@ -95,14 +101,14 @@
 }
 
 .dropdown__arrow {
- width: 35px;
- position: absolute;
- right: 10px;
- top: 4px;
+  width: 35px;
+  position: absolute;
+  right: 10px;
+  top: 4px;
 }
 
 .postJob label {
-  color: #2E4238;
+  color: #2e4238;
   font-size: 0.8rem;
   font-weight: bold;
 }
@@ -121,6 +127,6 @@
 }
 
 .postJob__check > p {
-    font-size: 0.85rem;
-    color: #a5a1a1;
+  font-size: 0.85rem;
+  color: #a5a1a1;
 }

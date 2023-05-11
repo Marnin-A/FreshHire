@@ -18,7 +18,8 @@ export default function About() {
     <div className={styles.about}>
       <section className={styles.explore}>
         <div className={styles.explore_header}>
-          About {"\u00A0"} <img src={Logo} alt="" />
+          About {"\u00A0"}{" "}
+          <span className={styles.explore_header_logo}>Freshire</span>
         </div>
         <div className={styles.explore_body}>
           <div className={styles.explore_body_left}>
@@ -52,11 +53,8 @@ export default function About() {
               our services
             </p>
           </div>
-          {/* <div className={styles.explore_body_right}>
-            <img src={StatsImg} alt="Site statistics" />
-          </div> */}
         </div>
-        <button className={styles.explore_btn}>Explore more</button>
+        {/* <button className={styles.explore_btn}>Explore more</button> */}
       </section>
       <section className={styles.difference}>
         <div className={styles.difference_top}>

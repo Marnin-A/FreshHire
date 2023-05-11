@@ -50,3 +50,7 @@
   background-color: white;
   padding: 0.5em 1em;
 }
+.signup_area button:nth-child(1):hover {
+  background-color: #0f5e36;
+  color: white;
+}
