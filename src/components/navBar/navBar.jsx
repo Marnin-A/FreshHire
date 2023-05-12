@@ -13,11 +13,11 @@ export default function NavBar() {
         Freshire
       </div>
       <div className={styles.nav_Links}>
-        <Link to="FreshHire/">Home</Link>
-        <Link to="FreshHire/about">About us</Link>
-        <Link to="FreshHire/contact_us">Contact us</Link>
-        <Link to="FreshHire/post_job">Post a job</Link>
-        <Link to="FreshHire/job_listing">Job listings</Link>
+        <Link to="/">Home</Link>
+        <Link to="/about">About us</Link>
+        <Link to="/contact_us">Contact us</Link>
+        <Link to="/post_job">Post a job</Link>
+        <Link to="/job_listing">Job listings</Link>
       </div>
       <div className={styles.signup_area}>
         <button>Sign up</button>
