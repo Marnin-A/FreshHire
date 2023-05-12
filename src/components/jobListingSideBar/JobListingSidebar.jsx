@@ -1,5 +1,5 @@
 import { React } from "react";
-import ToggleMenu from "../ToggleMenu/ToggleMenu";
+import ToggleMenu from "../toggleMenu/ToggleMenu";
 import { JobTypes } from "../../data/data";
 import { ExperienceLevels } from "../../data/data";
 import { Salary } from "../../data/data";
