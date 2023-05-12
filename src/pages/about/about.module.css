@@ -1,5 +1,5 @@
 .explore {
-  background-image: url(../../assets/Frame146.png);
+  background-image: url(../../assets/Frame146.webp);
   padding: 5.1875em 7.75em;
 }
 .explore_header {
@@ -64,7 +64,7 @@
 }
 
 .difference_bottom {
-  background-image: url(../../assets/Frame146_White.png);
+  background-image: url(../../assets/Frame146_White.webp);
 }
 .difference_bottom_header {
   display: flex;

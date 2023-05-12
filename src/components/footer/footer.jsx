@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../footer/footer.module.css";
 import Logo from "../../assets/Fresh_hire_light.png";
-import LadyImg from "../../assets/keeping-eye-you-trusting-watching-staying-alert-vigilant1.png";
+import LadyImg from "../../assets/keeping-eye-you-trusting-watching-staying-alert-vigilant1.webp";
 
 export default function Footer() {
   return (
