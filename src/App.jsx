@@ -1,4 +1,3 @@
-import "./App.css";
 import Home from "./pages/home/home";
 import About from "./pages/about/about";
 import ContactUs from "./pages/contactUs/ContactUs";
@@ -10,7 +9,7 @@ import PostJob from "./pages/postJob/postJob";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <BrowserRouter>
         <NavBar />
         <Routes>
