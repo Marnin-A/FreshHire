@@ -1,6 +1,5 @@
 import React from "react";
 import HowItWorks from "../../sections/HowItWorks/HowItWorks";
-import AboutUsSection from "../../sections/AboutUsSection/AboutUsSection";
 import WhyFreshHire from "../../sections/WhyFreshHire/WhyFreshHire";
 import Hero from "../../sections/Hero/Hero";
 import Companies from "../../sections/companies/Companies";
