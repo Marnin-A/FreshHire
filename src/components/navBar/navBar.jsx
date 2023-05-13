@@ -27,8 +27,8 @@ export default function NavBar() {
 
   return (
     <div className={scroll ? "header onScroll" : "header"}>
-      <div className="logo">
-        <img src={Logo} alt="FreshHire Logo" onClick={() => navigate("/")} style={{ cursor: "pointer" }} /> Freshire
+      <div className="logo" onClick={() => navigate("FreshHire/")} style={{ cursor: "pointer" }}>
+        <img src={Logo} alt="FreshHire Logo" /> Freshire
       </div>
       <ul
         className={click ? "nav-menu active" : "nav-menu"}
