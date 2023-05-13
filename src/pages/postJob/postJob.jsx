@@ -91,10 +91,7 @@ const PostJob = () => {
               <input type="text" />
             </div>
           </div>
-          <div
-            className="input__component"
-            style={{ marginTop: "2rem", paddingInline: "1rem" }}
-          >
+          <div className="input__component">
             <label>Job Description</label>
             <textarea name="" id="" cols="30" rows="10"></textarea>
           </div>
