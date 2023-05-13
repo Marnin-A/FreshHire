@@ -3,7 +3,6 @@ import React, { useState } from "react";
 import "./navBar.css";
 import Logo from "../../assets/Fresh_hire.png";
 import Hamburger from "../../assets/hamburger_menu.png";
-import LogoText from "../../assets/Fresh_hire_light.png";
 
 import { Link, useNavigate } from "react-router-dom";
 
@@ -41,19 +40,19 @@ export default function NavBar() {
         onClick={handleClick}
       >
         <li>
-          <Link to="FreshHire/">Home</Link>
+          <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to="FreshHire/about">About Us</Link>
+          <Link to="/about">About Us</Link>
         </li>
         <li>
-          <Link to="FreshHire/contact_us">Contact Us</Link>
+          <Link to="/contact_us">Contact Us</Link>
         </li>
         <li>
-          <Link to="FreshHire/post_job">Post a job</Link>
+          <Link to="/post_job">Post a job</Link>
         </li>
         <li>
-          <Link to="FreshHire/job_listings">Job Listings</Link>
+          <Link to="/job_listings">Job Listings</Link>
         </li>
         <li className="signup_area_resp">
           <div className="signup_area">
