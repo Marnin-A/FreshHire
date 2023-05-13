@@ -1,10 +1,18 @@
 .jobListing {
   max-width: 1150px;
   margin: 3% auto;
+  padding: 0 2%;
 }
 .jobListing_main {
   display: grid;
   grid-template-columns: 1fr 4fr;
   gap: 2rem;
   margin-top: 3%;
+}
+
+@media screen and (max-width: 800px) {
+  .jobListing_main {
+    display: block;
+    width: 100%;
+  }
 }

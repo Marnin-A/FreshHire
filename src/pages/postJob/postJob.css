@@ -117,6 +117,8 @@
   display: flex;
   flex-direction: column;
   gap: 4px;
+  margin-top: 2rem;
+  padding-inline: 1rem;
 }
 
 .postJob__check {
@@ -129,4 +131,43 @@
 .postJob__check > p {
   font-size: 0.85rem;
   color: #a5a1a1;
+}
+
+@media screen and (max-width:750px ) {
+  .postJob {
+    padding: 1rem 0;
+  }
+
+  .postJob__left {
+    display: none;
+  }
+
+  .postJob__container {
+    display: block;
+    padding: 0 3%;
+  }
+
+  .postJob__right {
+    width: 100%;
+  }
+
+  .postJob__inputs {
+    padding: 0;
+    gap: 12px;
+  }
+
+  .postJob__right__title {
+    margin-bottom: 1rem;
+  }
+
+  .input__component {
+    margin-top: 1rem;
+    padding-inline: 0;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .postJob__inputs {
+    grid-template-columns: 1fr;
+  }
 }

@@ -1,104 +1,133 @@
 .jobListingBody__top {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .jobListingBody__top > :nth-child(1) > p {
-    display: flex;
-    gap: 0.8rem;
-    align-items: center;
-    color: #7A7A7A;
-    font-size: 1.1rem;
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+  color: #7a7a7a;
+  font-size: 1.1rem;
 }
 
 .jobListingBody__top > :nth-child(2) {
-    display: flex;
-    gap: 0.8rem;
-    align-items: center;
-    color: #7A7A7A;
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+  color: #7a7a7a;
 }
 
 .jobListingBody__top > :nth-child(2) > span {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
 .jobListingBody__top > :nth-child(2) > div {
-    padding: 10px 1rem;
-    display: flex;
-    border: 1px solid gray;
-    gap: 1rem;
-    align-items: center;
-    border-radius: 4px;
-    font-size: 1.1rem;
+  padding: 10px 1rem;
+  display: flex;
+  border: 1px solid gray;
+  gap: 1rem;
+  align-items: center;
+  border-radius: 4px;
+  font-size: 1.1rem;
 }
 
-.jobListingSingleContainer  {
-    margin: 1rem 0 3rem;
+.jobListingSingleContainer {
+  margin: 1rem 0 3rem;
 }
 
 .jobListingBody {
-    padding: 0.80625em 0.8875em;
+  padding: 0.80625em 0.8875em;
 }
 
 .jobListingSingle__top {
-    display: flex;
-    align-items: center;
-    gap: 3rem;
-    margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  margin-bottom: 2rem;
 }
 
 .jobListingSingle__top__right {
-    margin-left: auto;
-    display: flex;
-    align-items: center;
-    gap: 2rem;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
 }
 
 .jobListingSingle__body {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 .jobListingSingle__bottom {
-    display: flex;
-    align-items: center;
-    gap: 3rem;
-    margin-bottom: 1rem;
-    color: #7A7A7A;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  margin-bottom: 1rem;
+  color: #7a7a7a;
 }
 
 .jobListingSingle__bottom > p {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 .jobListingSingle__bottom_b {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
 }
 
 .jobListingSingle__bottom_b > p {
-    padding: 9px 1rem;
-    border-radius: 4px;
+  padding: 9px 1rem;
+  border-radius: 4px;
 }
 
 .jobListingSingle__bottom_b > :nth-child(odd) {
-    color: #7A7A7A;
-    background-color: #ECFCEC;
+  color: #7a7a7a;
+  background-color: #ecfcec;
 }
 
 .jobListingSingle__bottom_b > :nth-child(even) {
-    color: white;
-    background-color: #0F5E36;
+  color: white;
+  background-color: #0f5e36;
 }
 
 .jobListing_timePosted {
-    color: #7A7A7A;
-    /* font-weight: bold; */
-    text-align: right;
-    margin-top: 0.5rem;
-    font-size: 0.9rem;
+  color: #7a7a7a;
+  /* font-weight: bold; */
+  text-align: right;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
 }
 
+@media screen and (max-width: 800px) {
+  .jobListingBody {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .jobListingSingle__bottom_b {
+    font-size: 0.8rem;
+  }
+
+  .jobListingSingle__bottom_b > p {
+    padding: 6px 12px;
+    border-radius: 4px;
+  }
+
+  .jobListingSingle__bottom {
+    gap: 1rem;
+  }
+
+  .jobListingSingle__top__right {
+    gap: 10px;
+  }
+
+  .jobListing_timePosted {
+    text-align: left;
+  }
+}

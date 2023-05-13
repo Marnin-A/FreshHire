@@ -91,7 +91,6 @@ const JobListingBody = () => {
                         <p><img src={chart} alt="chart" /><span>{roleSalary}</span></p>
                     </div>
                     <div className="jobListingSingle__bottom_b">
-
                         {roleOtherDetails.map((otherDetails, index) => (
                             <p key={index}>{otherDetails}</p>
                         ))}

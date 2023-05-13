@@ -19,7 +19,6 @@ const PostJob = () => {
                             <p>Stargirl Inc</p>
                             <p><small>Tech Company</small></p>
                         </div>
-
                     </div>
                     <div className="postJob__left__bottom">
                         <p><img src={profile} alt="" /><span>Profile</span></p>
@@ -68,7 +67,7 @@ const PostJob = () => {
                             <input type="text" />
                         </div>
                     </div>
-                    <div className='input__component' style={{ marginTop: '2rem', paddingInline: "1rem" }}>
+                    <div className='input__component' >
                         <label>Job Description</label>
                         <textarea name="" id="" cols="30" rows="10"></textarea>
                     </div>

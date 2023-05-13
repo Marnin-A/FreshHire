@@ -47,7 +47,7 @@ export default function NavBar() {
           <Link to="FreshHire/post_job">Post a job</Link>
         </li>
         <li>
-          <Link to="FreshHire/job_listings">
+          <Link to="FreshHire/job_listing">
             Job Listings
           </Link>
         </li>
