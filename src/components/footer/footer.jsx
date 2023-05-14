@@ -37,27 +37,27 @@ export default function Footer() {
           <div className={styles.footer_right}>
             <ul>
               <div>Jobs</div>
-              <a href="/job_listing">Remote jobs</a>
-              <a href="/job_listing">Onsite</a>
-              <a href="/job_listing">Developer jobs</a>
+              <a href="/FreshHire/job_listing">Remote jobs</a>
+              <a href="/FreshHire/job_listing">Onsite</a>
+              <a href="/FreshHire/job_listing">Developer jobs</a>
             </ul>
             <ul>
               <div>About Us</div>
-              <a href="/about">Remote jobs</a>
-              <a href="/about">Onsite</a>
-              <a href="/about">Developer jobs</a>
+              <a href="/FreshHire/about">Remote jobs</a>
+              <a href="/FreshHire/about">Onsite</a>
+              <a href="/FreshHire/about">Developer jobs</a>
             </ul>
             <ul>
               <div>For Employer</div>
-              <a href="/contact_us">Remote jobs</a>
-              <a href="/contact_us">Onsite</a>
-              <a href="/contact_us">Developer jobs</a>
+              <a href="/FreshHire/contact_us">Remote jobs</a>
+              <a href="/FreshHire/contact_us">Onsite</a>
+              <a href="/FreshHire/contact_us">Developer jobs</a>
             </ul>
             <ul>
               <div>Contact Us</div>
-              <a href="/contact_us">Remote jobs</a>
-              <a href="/contact_us">Onsite</a>
-              <a href="/contact_us">Developer jobs</a>
+              <a href="/FreshHire/contact_us">Remote jobs</a>
+              <a href="/FreshHire/contact_us">Onsite</a>
+              <a href="/FreshHire/contact_us">Developer jobs</a>
             </ul>
           </div>
         </div>
