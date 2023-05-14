@@ -35,30 +35,30 @@ export default function Footer() {
             </div>
           </div>
           <div className={styles.footer_right}>
-            <nav>
+            <ul>
               <div>Jobs</div>
-              <a href="#">Remote jobs</a>
-              <a href="#">Onsite</a>
-              <a href="#">Developer jobs</a>
-            </nav>
-            <nav>
+              <a href="/job_listing">Remote jobs</a>
+              <a href="/job_listing">Onsite</a>
+              <a href="/job_listing">Developer jobs</a>
+            </ul>
+            <ul>
               <div>About Us</div>
-              <a href="#">Remote jobs</a>
-              <a href="#">Onsite</a>
-              <a href="#">Developer jobs</a>
-            </nav>
-            <nav>
+              <a href="/about">Remote jobs</a>
+              <a href="/about">Onsite</a>
+              <a href="/about">Developer jobs</a>
+            </ul>
+            <ul>
               <div>For Employer</div>
-              <a href="#">Remote jobs</a>
-              <a href="#">Onsite</a>
-              <a href="#">Developer jobs</a>
-            </nav>
-            <nav>
+              <a href="/contact_us">Remote jobs</a>
+              <a href="/contact_us">Onsite</a>
+              <a href="/contact_us">Developer jobs</a>
+            </ul>
+            <ul>
               <div>Contact Us</div>
-              <a href="#">Remote jobs</a>
-              <a href="#">Onsite</a>
-              <a href="#">Developer jobs</a>
-            </nav>
+              <a href="/contact_us">Remote jobs</a>
+              <a href="/contact_us">Onsite</a>
+              <a href="/contact_us">Developer jobs</a>
+            </ul>
           </div>
         </div>
         <hr />
