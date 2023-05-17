@@ -4,6 +4,9 @@
   background-color: white;
   font-family: "Clash Grotesk", sans-serif;
   border-radius: 8px;
+  box-shadow: 4px 3px 1px 1px rgba(15,94,54,0.88);
+-webkit-box-shadow: 4px 3px 1px 1px rgba(15,94,54,0.88);
+-moz-box-shadow: 4px 3px 1px 1px rgba(15,94,54,0.88);
 }
 
 .jobBoardcard__tag {
@@ -33,4 +36,14 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.jobBoardcard__bottom__location {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.jobBoardcard__bottom__location > img {
+  margin-top: -4px;
 }

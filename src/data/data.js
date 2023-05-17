@@ -7,47 +7,40 @@ import Slack from "../assets/SlackLogo.png";
 import Snapchat from "../assets/SnapchatLogo.png";
 import Twitter from "../assets/TwitterLogo.png";
 import Apple from "../assets/AppleLogo.png";
-//
-// BinanceLogo.png
-// GoogleLogo.png
-// LoomLogo.png
-// Mercedes-BenzLogo.png
-// SlackLogo.png
-// SnapchatLogo.png
-// TwitterLogo.png
+
 
 export const jobs = [
   {
     id: "1",
-    brandImg: Google,
+    brandImg: Snapchat,
     jobTitle: "UI/UX Designer",
     company: "Google",
     description:
       "Upload your resume and other required docs to find best jobs that match you.",
     location: "USA",
-    salaryRange: "3000N - 5000/Month",
+    salaryRange: "$ 3000 - 5000/MONTH",
     jobType: "Remote",
   },
   {
     id: "2",
-    brandImg: Slack,
+    brandImg: Zoom,
     jobTitle: "UI/UX Designer",
-    company: "Slack",
+    company: "Zoom",
     description:
       "Upload your resume and other required docs to find best jobs that match you.",
     location: "USA",
-    salaryRange: "3000N - 5000/Month",
+    salaryRange: "$ 3000 - 5000/MONTH",
     jobType: "Remote",
   },
   {
     id: "3",
-    brandImg: Loom,
+    brandImg: Apple,
     jobTitle: "UI/UX Designer",
-    company: "Loom",
+    company: "Apple",
     description:
       "Upload your resume and other required docs to find best jobs that match you.",
     location: "USA",
-    salaryRange: "3000N - 5000/Month",
+    salaryRange: "$ 3000 - 5000/MONTH",
     jobType: "Remote",
   },
   {
@@ -58,7 +51,7 @@ export const jobs = [
     description:
       "Upload your resume and other required docs to find best jobs that match you.",
     location: "USA",
-    salaryRange: "3000N - 5000/Month",
+    salaryRange: "$ 3000 - 5000/MONTH",
     jobType: "Remote",
   },
   {
@@ -69,7 +62,7 @@ export const jobs = [
     description:
       "Upload your resume and other required docs to find best jobs that match you.",
     location: "USA",
-    salaryRange: "3000N - 5000/Month",
+    salaryRange: "$ 3000 - 5000/MONTH",
     jobType: "Remote",
   },
   {
@@ -80,7 +73,7 @@ export const jobs = [
     description:
       "Upload your resume and other required docs to find best jobs that match you.",
     location: "USA",
-    salaryRange: "3000N - 5000/Month",
+    salaryRange: "$ 3000 - 5000/MONTH",
     jobType: "Remote",
   },
   {
@@ -91,7 +84,7 @@ export const jobs = [
     description:
       "Upload your resume and other required docs to find best jobs that match you.",
     location: "USA",
-    salaryRange: "3000N - 5000/Month",
+    salaryRange: "$ 3000 - 5000/MONTH",
     jobType: "Remote",
   },
   {
@@ -102,7 +95,7 @@ export const jobs = [
     description:
       "Upload your resume and other required docs to find best jobs that match you.",
     location: "USA",
-    salaryRange: "3000N - 5000/Month",
+    salaryRange: "$ 3000 - 5000/MONTH",
     jobType: "Remote",
   },
   {
@@ -113,7 +106,7 @@ export const jobs = [
     description:
       "Upload your resume and other required docs to find best jobs that match you.",
     location: "USA",
-    salaryRange: "3000N - 5000/Month",
+    salaryRange: "$ 3000 - 5000/MONTH",
     jobType: "Remote",
   },
 ];
