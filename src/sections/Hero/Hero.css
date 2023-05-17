@@ -41,6 +41,13 @@
   border-radius: 8px;
   border: none;
   color: white;
+  cursor: pointer;
+}
+
+.hero__left__postjob button:hover {
+  color: #0f5e36;
+  background: white;
+  border: 1px solid #0f5e36;
 }
 
 .hero__left__postjob p {
