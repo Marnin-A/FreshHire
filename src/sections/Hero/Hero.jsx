@@ -1,4 +1,5 @@
 import heroImage from "../../assets/hero__image.webp";
+import Wavy_Check from "../../assets/Wavy_Check.png";
 import "./Hero.css";
 
 const Hero = () => {
@@ -16,14 +17,23 @@ const Hero = () => {
             <p>Apply for jobs</p>
           </div>
           <div className="hero__left__bottom">
-            <p>Early Onboarding</p>
-            <p>1000 new jobs</p>
+            <div>
+              <img src={Wavy_Check} alt="" />
+              <p>Early Onboarding</p>
+            </div>
+            <div>
+              <img src={Wavy_Check} alt="" />
+              <p>1000 new jobs</p>
+            </div>
           </div>
         </div>
 
         <div className="hero__right">
           <img src={heroImage} alt="hero image" />
         </div>
+      </div>
+      <div className="hero__right">
+        <img src={heroImage} alt="hero image" />
       </div>
     </div>
   );
