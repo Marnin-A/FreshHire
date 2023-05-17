@@ -52,7 +52,7 @@ export default function NavBar() {
           <Link to="/post_job">Post a job</Link>
         </li>
         <li>
-          <Link to="/job_listings">Job Listings</Link>
+          <Link to="/job_listing">Job Listings</Link>
         </li>
         <li className="signup_area_resp">
           <div className="signup_area">
