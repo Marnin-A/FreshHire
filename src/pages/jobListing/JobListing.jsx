@@ -8,7 +8,7 @@ export default function JobListing() {
   return (
     <div className={styles.jobListing}>
       <div>
-        {/* <JobListingFilters /> */}
+        <JobListingFilters />
       </div>
       <div className={styles.jobListing_main}>
         <JobListingSidebar />
