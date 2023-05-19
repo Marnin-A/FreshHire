@@ -53,16 +53,6 @@ const PostJob = () => {
                             <input type="text" />
                         </div>
                         <div className='input__component'>
-                            <label>How soon do you want to hire</label>
-                            <div style={{position: "relative"}}><input type="text" style={{width: "100%"}}/>
-                                <img src={arrow} alt="arrow" className="dropdown__arrow" /></div>
-                        </div>
-                        <div className='input__component'>
-                            <label>Show pay by</label>
-                            <div style={{position: "relative"}}><input type="text" style={{width: "100%"}}/>
-                                <img src={arrow} alt="arrow" className="dropdown__arrow" /></div>
-                        </div>
-                        <div className='input__component'>
                             <label>Salary Range</label>
                             <input type="text" />
                         </div>
