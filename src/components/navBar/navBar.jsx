@@ -10,46 +10,48 @@ import { Link, useNavigate } from "react-router-dom";
 export default function NavBar() {
   const navigate = useNavigate();
   const [click, setClick] = useState(false);
-  const [scroll, setScroll] = useState(false)
+  const [scroll, setScroll] = useState(false);
   const handleClick = () => {
-    setClick(!click)
+    setClick(!click);
   };
 
   const addBoxShadow = () => {
     if (window.scrollY >= 100) {
-      setScroll(true)
+      setScroll(true);
     } else {
-      setScroll(false)
+      setScroll(false);
     }
-  }
+  };
 
-  window.addEventListener('scroll', addBoxShadow)
+  window.addEventListener("scroll", addBoxShadow);
 
   return (
     <div className={scroll ? "header onScroll" : "header"}>
-      <div className="logo" onClick={() => navigate("FreshHire/")} style={{ cursor: "pointer" }}>
+      <div
+        className="logo"
+        onClick={() => navigate("FreshHire/")}
+        style={{ cursor: "pointer" }}
+      >
         <img src={Logo} alt="FreshHire Logo" /> Freshire
       </div>
       <ul
         className={click ? "nav-menu active" : "nav-menu"}
         onClick={handleClick}
       >
-        <li>
-          <Link to="FreshHire/">Home</Link>
+        <li className="nav-link">
+          <Link to="/">Home</Link>
         </li>
-        <li>
-          <Link to="FreshHire/about">About Us</Link>
+        <li className="nav-link">
+          <Link to="/about">About Us</Link>
         </li>
-        <li>
-          <Link to="FreshHire/contact_us">Contact Us</Link>
+        <li className="nav-link">
+          <Link to="/contact_us">Contact Us</Link>
         </li>
-        <li>
-          <Link to="FreshHire/post_job">Post a job</Link>
+        <li className="nav-link">
+          <Link to="/post_job">Post a job</Link>
         </li>
-        <li>
-          <Link to="FreshHire/job_listing">
-            Job Listings
-          </Link>
+        <li className="nav-link">
+          <Link to="/job_listing">Job Listings</Link>
         </li>
         <li className="signup_area_resp">
           <div className="signup_area">
@@ -60,10 +62,7 @@ export default function NavBar() {
       <div className="signup_area hide">
         <button>Sign up</button>
       </div>
-      <div
-        className="hamburger"
-        onClick={handleClick}
-      >
+      <div className="hamburger" onClick={handleClick}>
         {click ? <p>X</p> : <img src={Hamburger} alt="" />}
       </div>
     </div>
