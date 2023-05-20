@@ -1,5 +1,9 @@
 import "./postJob.css";
+<<<<<<< HEAD
 import cheerfulwoman from "../../assets/cheerful-woman.webp";
+=======
+import cheerfulwoman from "../../assets/cheerful-woman.png";
+>>>>>>> 0f0b89a (Change job posting button)
 import profile from "../../assets/User_Circle.svg";
 import messageIcon from "../../assets/Chat.svg";
 import manage from "../../assets/Suitcase.svg";
@@ -88,6 +92,7 @@ const PostJob = () => {
               job posting
             </p>
           </div>
+<<<<<<< HEAD
           <button>Save</button>
         </form>
       </div>
@@ -172,6 +177,11 @@ const PostJob = () => {
         </div>
         <button>Save</button>
       </form>
+=======
+          <button>Post a Job</button>
+        </form>
+      </div>
+>>>>>>> 0f0b89a (Change job posting button)
     </div>
   );
 };
