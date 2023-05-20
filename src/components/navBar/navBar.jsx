@@ -39,19 +39,19 @@ export default function NavBar() {
         className={click ? "nav-menu active" : "nav-menu"}
         onClick={handleClick}
       >
-        <li>
+        <li className="nav-link">
           <Link to="/">Home</Link>
         </li>
-        <li>
+        <li className="nav-link">
           <Link to="/about">About Us</Link>
         </li>
-        <li>
+        <li className="nav-link">
           <Link to="/contact_us">Contact Us</Link>
         </li>
-        <li>
+        <li className="nav-link">
           <Link to="/post_job">Post a job</Link>
         </li>
-        <li>
+        <li className="nav-link">
           <Link to="/job_listing">Job Listings</Link>
         </li>
         <li className="signup_area_resp">
