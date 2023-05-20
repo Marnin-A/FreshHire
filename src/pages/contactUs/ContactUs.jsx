@@ -39,6 +39,7 @@ export default function ContactUs() {
               Not an <span>employee?</span> scroll down for employer view
             </span>
             <img
+              className={styles.arrowDown}
               src={ArrowDown}
               alt="Scroll down to employee view if your not and employer"
             />
@@ -63,6 +64,7 @@ export default function ContactUs() {
               Not an <span>employer?</span> scroll up for employee view
             </span>
             <img
+              className={styles.arrowUp}
               src={ArrowUp}
               alt="Scroll down to employee view if your not and employer"
             />
@@ -73,10 +75,10 @@ export default function ContactUs() {
             <HelpCard header="Fresh hire rules basics" img={EmployerImg1} />
             <HelpCard header="Employer FAQ" img={EmployerImg2} />
             <HelpCard
-              header="Employer profileand onboarding"
+              header="Employer profile and onboarding"
               img={EmployerImg3}
             />
-            <HelpCard header="Manage Companyreview" img={EmployeeImg4} />
+            <HelpCard header="Manage Company review" img={EmployeeImg4} />
             <HelpCard header="Job Posting" img={EmployerImg5} />
             <HelpCard header="Privacy Policy" img={EmployerImg6} />
           </div>
