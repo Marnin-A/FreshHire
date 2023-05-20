@@ -1,9 +1,5 @@
 import "./postJob.css";
-<<<<<<< HEAD
 import cheerfulwoman from "../../assets/cheerful-woman.webp";
-=======
-import cheerfulwoman from "../../assets/cheerful-woman.png";
->>>>>>> 0f0b89a (Change job posting button)
 import profile from "../../assets/User_Circle.svg";
 import messageIcon from "../../assets/Chat.svg";
 import manage from "../../assets/Suitcase.svg";
@@ -92,96 +88,9 @@ const PostJob = () => {
               job posting
             </p>
           </div>
-<<<<<<< HEAD
-          <button>Save</button>
-        </form>
-      </div>
-      <div className="postJob__left__bottom">
-        <p>
-          <img src={profile} alt="" />
-          <span>Profile</span>
-        </p>
-        <p>
-          <img src={manage} alt="" />
-          <span>Manage</span>
-        </p>
-        <p>
-          <img src={postJob} alt="" />
-          <span>Post a job</span>
-        </p>
-        <p>
-          <img src={messageIcon} alt="" />
-          <span>Messages</span>
-        </p>
-        <p>
-          <img src={password} alt="" />
-          <span>Change Password</span>
-        </p>
-        <p>
-          <img src={logout} alt="" />
-          <span>Logout</span>
-        </p>
-      </div>
-      <form className="postJob__right">
-        <p className="postJob__right__title">Post a job</p>
-        <div className="postJob__inputs">
-          <div className="input__component">
-            <label>Job Title</label>
-            <input type="text" />
-          </div>
-          <div className="input__component">
-            <label>Email Address</label>
-            <input type="text" />
-          </div>
-          <div className="input__component">
-            <label>Job Type</label>
-            <input type="text" />
-          </div>
-          <div className="input__component">
-            <label>Job Tags</label>
-            <input type="text" />
-          </div>
-          <div className="input__component">
-            <label>Job Location</label>
-            <input type="text" />
-          </div>
-          <div className="input__component">
-            <label>How soon do you want to hire</label>
-            <div style={{ position: "relative" }}>
-              <input type="text" style={{ width: "100%" }} />
-              <img src={arrow} alt="arrow" className="dropdown__arrow" />
-            </div>
-          </div>
-          <div className="input__component">
-            <label>Show pay by</label>
-            <div style={{ position: "relative" }}>
-              <input type="text" style={{ width: "100%" }} />
-              <img src={arrow} alt="arrow" className="dropdown__arrow" />
-            </div>
-          </div>
-          <div className="input__component">
-            <label>Salary Range</label>
-            <input type="text" />
-          </div>
-        </div>
-        <div className="input__component">
-          <label>Job Description</label>
-          <textarea name="" id="" cols="30" rows="10"></textarea>
-        </div>
-        <div className="postJob__check">
-          <input type="checkbox" />{" "}
-          <p>
-            by clicking on this, you have accepted our terms and conditions on
-            job posting
-          </p>
-        </div>
-        <button>Save</button>
-      </form>
-=======
           <button>Post a Job</button>
         </form>
       </div>
->>>>>>> 0f0b89a (Change job posting button)
     </div>
   );
 };
