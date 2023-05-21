@@ -23,6 +23,7 @@
   min-width: 4.875em;
   color: #0f5e36;
   font-size: 0.875em;
+  border: 1px solid #0f5e36;
   background-color: white;
   padding: 0.5em 1em;
 }
