@@ -39,19 +39,19 @@ export default function NavBar() {
         onClick={handleClick}
       >
         <li className="nav-link">
-          <Link to="/">Home</Link>
+          <Link to="FreshHire/">Home</Link>
         </li>
         <li className="nav-link">
-          <Link to="/about">About Us</Link>
+          <Link to="FreshHire/about">About Us</Link>
         </li>
         <li className="nav-link">
-          <Link to="/contact_us">Contact Us</Link>
+          <Link to="FreshHire/contact_us">Contact Us</Link>
         </li>
         <li className="nav-link">
-          <Link to="/post_job">Post a job</Link>
+          <Link to="FreshHire/post_job">Post a job</Link>
         </li>
         <li className="nav-link">
-          <Link to="/job_listing">Job Listings</Link>
+          <Link to="FreshHire/job_listing">Job Listings</Link>
         </li>
         <li className="signup_area_resp">
           <div className="signup_area">
