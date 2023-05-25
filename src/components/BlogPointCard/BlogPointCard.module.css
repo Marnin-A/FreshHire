@@ -1,0 +1,29 @@
+.blog_point_card {
+  background-color: #edf9f3;
+  padding: 1.875em 1.75em;
+  display: flex;
+  margin-bottom: 1.5em;
+}
+#number {
+  height: 1.5em;
+  width: 1.5em;
+  border-radius: 50%;
+  font-size: 1.25em;
+  color: white;
+  display: grid;
+  place-content: center;
+  background-color: #0f5e36;
+}
+#info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0.625em;
+  width: 100%;
+}
+#header {
+  text-transform: uppercase;
+  content: #0f5e36;
+}
+#text {
+  color: #7a7a7a;
+}
