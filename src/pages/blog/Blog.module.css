@@ -1,0 +1,32 @@
+.blog_page {
+  padding: 7%;
+}
+.blog_main {
+  display: grid;
+  grid-template-columns: 55% 45%;
+}
+#tips_header {
+  color: #7a7a7a;
+  font-size: 1.25em;
+}
+.blog_left {
+  display: flex;
+  flex-direction: column;
+}
+#main_img {
+  margin-top: 1.12em;
+  width: 100%;
+  height: auto;
+}
+#main_img_labels {
+  display: flex;
+  color: #817e83;
+  justify-content: space-between;
+  margin-bottom: 2.1em;
+}
+.main_text {
+  margin-bottom: 2.1em;
+}
+.blog_points {
+  list-style: none;
+}
