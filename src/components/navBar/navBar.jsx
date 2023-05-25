@@ -58,13 +58,13 @@ export default function NavBar() {
           <Link to="FreshHire/about">About Us</Link>
         </li>
         <li className="nav-link">
-          <Link to="FreshHire/contact_us">Contact Us</Link>
-        </li>
-        <li className="nav-link">
           <Link to="FreshHire/post_job">Post a job</Link>
         </li>
         <li className="nav-link">
           <Link to="FreshHire/job_listing">Job Listings</Link>
+        </li>
+        <li className="nav-link">
+          <Link to="FreshHire/blog">Blog</Link>
         </li>
         <li className="signup_area_resp">
           <div className="signup_area">
