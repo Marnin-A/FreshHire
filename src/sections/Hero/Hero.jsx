@@ -1,8 +1,10 @@
+import { useNavigate } from "react-router-dom";
 import heroImage from "../../assets/hero__image.webp";
 import Wavy_Check from "../../assets/Wavy_Check.png";
 import "./Hero.css";
 
 const Hero = () => {
+  const navigate = useNavigate();
   return (
     <div className="hero">
       <div className="hero__container">
@@ -31,9 +33,6 @@ const Hero = () => {
         <div className="hero__right">
           <img src={heroImage} alt="hero image" />
         </div>
-      </div>
-      <div className="hero__right">
-        <img src={heroImage} alt="hero image" />
       </div>
     </div>
   );
