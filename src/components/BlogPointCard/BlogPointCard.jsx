@@ -1,4 +1,5 @@
 import styles from "./BlogPointCard.module.css";
+import blog1 from "../../assets/blog1.png";
 export default function BlogPointCard({ number, header, text }) {
   return (
     <li className={styles.blog_point_card}>
