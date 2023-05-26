@@ -1,19 +1,12 @@
 import React from "react";
 import LadyTyping from "../../assets/pexels-photo-80911801.avif";
 import style from "./Blog.module.css";
-<<<<<<< HEAD
 import BlogPointCard, {
   BlogPointRghtCard,
 } from "../../components/BlogPointCard/BlogPointCard";
 import blog1 from "../../assets/blog1.webp";
 import blog2 from "../../assets/blog2.webp";
 import blog3 from "../../assets/blog3.webp";
-=======
-import BlogPointCard, { BlogPointRghtCard } from "../../components/BlogPointCard/BlogPointCard";
-import blog1 from "../../assets/blog1.png"
-import blog2 from "../../assets/blog2.png"
-import blog3 from "../../assets/blog3.png"
->>>>>>> 96f61c1 (updated codebase)
 
 export default function Blog() {
   return (
