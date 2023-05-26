@@ -1,6 +1,9 @@
 import React from "react";
 import styles from "../footer/footer.module.css";
 import Logo from "../../assets/Fresh_hire_light.png";
+import facebook from "../../assets/facebookLogo.svg";
+import instagram from "../../assets/instaLogo.svg";
+import twitter from "../../assets/twitterLogo.svg";
 import LadyImg from "../../assets/keeping-eye-you-trusting-watching-staying-alert-vigilant1.webp";
 
 export default function Footer() {
@@ -36,28 +39,40 @@ export default function Footer() {
           </div>
           <div className={styles.footer_right}>
             <ul>
-              <div>Jobs</div>
+              <div className={styles.footer_right_header}>Jobs</div>
               <a href="/FreshHire/job_listing">Remote jobs</a>
               <a href="/FreshHire/job_listing">Onsite</a>
               <a href="/FreshHire/job_listing">Developer jobs</a>
             </ul>
             <ul>
-              <div>About Us</div>
+              <div className={styles.footer_right_header}>About Us</div>
               <a href="/FreshHire/about">Remote jobs</a>
               <a href="/FreshHire/about">Onsite</a>
               <a href="/FreshHire/about">Developer jobs</a>
             </ul>
             <ul>
-              <div>For Employer</div>
+              <div className={styles.footer_right_header}>For Employer</div>
               <a href="/FreshHire/contact_us">Remote jobs</a>
               <a href="/FreshHire/contact_us">Onsite</a>
               <a href="/FreshHire/contact_us">Developer jobs</a>
             </ul>
             <ul>
-              <div>Contact Us</div>
-              <a href="/FreshHire/contact_us">Remote jobs</a>
-              <a href="/FreshHire/contact_us">Onsite</a>
-              <a href="/FreshHire/contact_us">Developer jobs</a>
+              <div className={styles.footer_right_header}>Contact Us</div>
+              <a href="08068792345">08068792345</a>
+              <div className={styles.follow_us}>
+                <p>Follow us:</p>
+                <div className={styles.social_media}>
+                  <a href="https://facebook.com/">
+                    <img src={facebook} alt="" />
+                  </a>
+                  <a href="https://instagram.com/">
+                    <img src={instagram} alt="" />
+                  </a>
+                  <a href="https://twitter.com/">
+                    <img src={twitter} alt="" />
+                  </a>
+                </div>
+              </div>
             </ul>
           </div>
         </div>
