@@ -1,16 +1,14 @@
 import React from "react";
 import styles from "./about.module.css";
 import UsersImg from "../../assets/Component3.webp";
-import Logo from "../../assets/Fresh_hire.png";
-import StatsImg from "../../assets/jobsFrame.webp";
 import ProfileImg1 from "../../assets/rafiki.png";
-import ProfileImg2 from "../../assets/cuate.png";
+import ProfileImg2 from "../../assets/Group64.webp";
 import ProfileImg3 from "../../assets/cuate1.png";
 import ProfileImg4 from "../../assets/cuate2.png";
 import PremProfileImg from "../../assets/amico.png";
 import PremProfileImg1 from "../../assets/pana.png";
 import PremProfileImg2 from "../../assets/cuate.png";
-import PremProfileImg3 from "../../assets/pana1.png";
+import PremProfileImg3 from "../../assets/business-pana.png";
 import ProfileCard from "../../components/profileCard/ProfileCard";
 
 export default function About() {
@@ -54,14 +52,13 @@ export default function About() {
             </p>
           </div>
         </div>
-        {/* <button className={styles.explore_btn}>Explore more</button> */}
       </section>
       <section className={styles.difference}>
         <div className={styles.difference_top}>
           <div className={styles.difference_top_header}>
-            <span>The </span>
-            <span>Fresh </span>
-            <span> hire </span>
+            <span>The</span>
+            <span>&nbsp; Freshire &nbsp;</span>
+
             <span>Difference</span>
           </div>
         </div>
