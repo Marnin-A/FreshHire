@@ -1,7 +1,7 @@
 import React from "react";
 import "./HowItWorks.css";
 import HowItWorksCard from "../../components/howItWorksCard/HowItWorksCard";
-import personalData from "../../assets/PersonalData.png";
+import personalData from "../../assets/PersonalData.webp";
 import { howItWorks } from "../../data/data";
 // import { IoCheckmarkCircleOutline } from 'react-icons/io'
 
