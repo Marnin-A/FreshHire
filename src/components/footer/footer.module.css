@@ -99,8 +99,18 @@
   text-decoration: none;
   color: white;
 }
-.footer_right > ul > div {
+.footer_right_header {
   font-weight: 600;
+}
+.follow_us {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.social_media {
+  display: flex;
+  gap: 10%;
 }
 .footer_right {
   display: flex;

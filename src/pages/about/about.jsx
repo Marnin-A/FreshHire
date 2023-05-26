@@ -68,7 +68,7 @@ export default function About() {
         <div className={styles.difference_bottom}>
           <div className={styles.difference_bottom_header}>
             <h3>
-              Job seekr get the inside scoop, employer hare what makes them
+              Job seekers get the inside scoop, employers hire what makes them
               proud
             </h3>
           </div>
