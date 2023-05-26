@@ -1,7 +1,3 @@
-.about {
-  /* background: #FBFCFB; */
-}
-
 .explore {
   background-image: url(../../assets/Frame146.webp);
   padding: 5.1875em 7.75em;
@@ -23,7 +19,7 @@
   margin-top: 1.1875em;
 }
 .explore_body_left {
-  width: 89%;
+  width: 96%;
 }
 .explore_body_left > h3 {
   font-weight: 700;
@@ -35,19 +31,16 @@
 .explore_body_left > p {
   margin: 1.7em 0em;
 }
-.explore_btn {
-  background-color: #0f5e36;
-  padding: 0.625em 1em;
-  border-radius: 0.25em;
-  border: none;
-  color: white;
-}
+
 .difference {
-  padding: 5.1875em 7.75em;
+  padding: 5.1875em 5.75em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .difference_top {
   display: flex;
-  margin-top: 4em;
+  margin-top: 2em;
   justify-content: center;
 }
 .difference_top_header {
@@ -58,13 +51,11 @@
 }
 .difference_top_header span:nth-child(2) {
   font-weight: 600;
-  color: #0f5e36;
-}
-.difference_top_header span:nth-child(3) {
   color: #29ad63;
 }
-.difference_top_header span:nth-child(4) {
+.difference_top_header span:nth-child(3) {
   color: #b4b4b4;
+  font-weight: 600;
 }
 
 .difference_bottom {
@@ -88,16 +79,21 @@
 }
 .difference_bottom_info {
   display: flex;
-  gap: 1.9em;
+  margin: auto 0%;
+  gap: 1em;
 }
 .difference_info {
   display: flex;
   flex-direction: column;
-  width: max-content;
   align-items: center;
+  text-align: center;
 }
 .difference_info > h3 {
   color: #0f5e36;
+  font-size: 1.2em;
+}
+.difference_info > p {
+  font-size: 1em;
 }
 .free_profile {
   display: flex;
