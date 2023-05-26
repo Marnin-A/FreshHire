@@ -3,7 +3,8 @@
 }
 .blog_main {
   display: grid;
-  grid-template-columns: 55% 45%;
+  grid-template-columns: 55% 40%;
+  gap: 5%;
 }
 #tips_header {
   color: #7a7a7a;
@@ -30,3 +31,4 @@
 .blog_points {
   list-style: none;
 }
+

@@ -27,3 +27,23 @@
 #text {
   color: #7a7a7a;
 }
+
+.blog_right {
+  padding: 2.8rem 0;
+}
+
+.blog_right > img {
+  width: 100%;
+}
+
+.blog_right_time {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 8px;
+  color: #7a7a7a;
+}
+
+.blog_right_title {
+  margin-top: 0.8rem;
+}
