@@ -6,7 +6,7 @@ import Footer from "./components/footer/footer";
 import JobListing from "./pages/jobListing/JobListing";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import PostJob from "./pages/postJob/postJob";
-import SmoothScroll from "./components/SmoothScroll/SmoothScroll";
+import SmoothScroll from "./components/SmoothScroll/SmoothSCroll";
 
 function App() {
   return (
