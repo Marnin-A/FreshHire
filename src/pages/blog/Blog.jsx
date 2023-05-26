@@ -80,7 +80,6 @@ export default function Blog() {
           </ul>
         </section>
         <section className={style.blog_right}>
-<<<<<<< HEAD
           <BlogPointRghtCard
             image={blog1}
             title="How to setup your work space in simple steps"
@@ -101,13 +100,6 @@ export default function Blog() {
             date="May 01, 2023"
             timeToRead="2 mins read"
           />
-=======
-          <BlogPointRghtCard image={blog1} title="How to setup your work space in simple steps" date="April 28, 2023" timeToRead="4 mins read" />
-          <hr />
-          <BlogPointRghtCard image={blog2} title="5 things you need to know when preparing for an interview." date="Apr 28, 2023" timeToRead="3 mins read" />
-          <hr />
-          <BlogPointRghtCard image={blog3} title="How to hire great talent" date="May 01, 2023" timeToRead="2 mins read" />
->>>>>>> 96f61c1 (updated codebase)
         </section>
       </main>
     </div>
