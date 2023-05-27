@@ -5,11 +5,36 @@ import "./Hero.css";
 
 const Hero = () => {
   const navigate = useNavigate();
+  const [click, setClick] = useState(false);
+  const [scroll, setScroll] = useState(false);
+  const [anchorEl, setAnchorEl] = React.useState(null);
+  const handleOpen = (event) => {
+    setAnchorEl(event.currentTarget);
+  };
+
+  const handleClose = () => {
+    setAnchorEl(null);
+  };
+
+  const addBoxShadow = () => {
+    if (window.scrollY >= 100) {
+      setScroll(true);
+    } else {
+      setScroll(false);
+    }
+  };
+
+  window.addEventListener("scroll", addBoxShadow);
+
+  const open = Boolean(anchorEl);
+  const id = open ? "simple-popover" : undefined;
   return (
     <div className="hero">
       <div className="hero__container">
         <div className="hero__left">
-          <h1>The Best Place To Hire Talents And Find Your Dream Job</h1>
+          <h1 className="hero__left_header">
+            The Best Place To Hire Talents And Find Your Dream Job
+          </h1>
           <p>
             Find the best jobs, Research fast growing companies and hire awesome
             talents.
