@@ -13,9 +13,6 @@ const Hero = () => {
   const [click, setClick] = useState(false);
   const [scroll, setScroll] = useState(false);
   const [anchorEl, setAnchorEl] = React.useState(null);
-  const handleClick = () => {
-    setClick(!click);
-  };
   const handleOpen = (event) => {
     setAnchorEl(event.currentTarget);
   };
@@ -40,7 +37,9 @@ const Hero = () => {
     <div className="hero">
       <div className="hero__container">
         <div className="hero__left">
-          <h1>The Best Place To Hire Talents And Find Your Dream Job</h1>
+          <h1 className="hero__left_header">
+            The Best Place To Hire Talents And Find Your Dream Job
+          </h1>
           <p>
             Find the best jobs, Research fast growing companies and hire awesome
             talents.
