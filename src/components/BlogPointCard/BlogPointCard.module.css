@@ -47,3 +47,18 @@
 .blog_right_title {
   margin-top: 0.8rem;
 }
+@media only screen and (max-width: 450px) {
+  .blog_point_card {
+    padding: 1.875em 0.35em;
+  }
+  #number {
+    height: 0.95em;
+    width: 0.95em;
+    padding: 5%;
+    font-size: medium;
+  }
+  #info {
+    font-size: small;
+    gap: 1em;
+  }
+}
