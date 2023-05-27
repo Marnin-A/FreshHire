@@ -14,3 +14,10 @@
     width: 100%;
   }
 }
+@media only screen and (max-width: 450px) {
+  .profile_card {
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+  }
+}
