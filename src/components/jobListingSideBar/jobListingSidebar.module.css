@@ -1,3 +1,8 @@
 .jobListingSidebar > * {
   margin-bottom: 5%;
 }
+@media screen and (max-width: 800px) {
+  .jobListingSidebar {
+    display: none;
+  }
+}

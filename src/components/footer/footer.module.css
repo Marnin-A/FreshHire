@@ -205,10 +205,13 @@
   }
 }
 @media screen and (max-width: 450px) {
+  .subscribe {
+    margin-top: 12%;
+  }
   .add_email {
     font-family: "Clash Grotesk";
-    font-size: 0.2em;
-    padding: 1.3125em;
+    font-size: x-small;
+    padding: 0.3125em;
     background-color: white;
     display: flex;
     justify-content: space-between;
@@ -230,15 +233,23 @@
   #add_email::placeholder {
     font-family: "Clash Grotesk";
     font-weight: 600;
+    font-size: xx-small;
     color: #0f5e36;
   }
   .subscribe_btn {
     font-family: "Clash Grotesk";
     background: #0f5e36;
+    font-size: xx-small;
     color: white;
     border: 1px solid #dbdbdb;
     border-radius: 1.25em;
     padding: 0.4375em 5%;
     letter-spacing: 1px;
+  }
+}
+@media screen and (max-width: 370px) {
+  .footer_right {
+    height: max-content;
+    gap: 7%;
   }
 }
