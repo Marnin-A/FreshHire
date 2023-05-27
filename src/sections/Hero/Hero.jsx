@@ -1,12 +1,13 @@
 import { useNavigate } from "react-router-dom";
+import * as React from "react";
 import heroImage from "../../assets/hero__image.webp";
 import Wavy_Check from "../../assets/Wavy_Check.png";
 import "./Hero.css";
 
 const Hero = () => {
   const navigate = useNavigate();
-  const [click, setClick] = useState(false);
-  const [scroll, setScroll] = useState(false);
+  const [click, setClick] = React.useState(false);
+  const [scroll, setScroll] = React.useState(false);
   const [anchorEl, setAnchorEl] = React.useState(null);
   const handleOpen = (event) => {
     setAnchorEl(event.currentTarget);
