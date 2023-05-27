@@ -46,3 +46,39 @@
   color: #0f5e36;
   border: 1px solid #0f5e36;
 }
+#search_btn_mobile {
+  display: none;
+}
+@media screen and (max-width: 800px) {
+  .jobListingFilters_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+  }
+  .jobListingFilters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    align-items: center;
+    justify-content: center;
+  }
+  .filters {
+    width: 40%;
+    font-size: small;
+  }
+  #search_btn {
+    display: none;
+  }
+  #search_btn_mobile {
+    display: block;
+    font-family: "Clash Grotesk", sans-serif;
+    background-color: #0f5e36;
+    height: max-content;
+    font-size: medium;
+    padding: 1em 2em;
+    border-radius: 4px;
+    color: white;
+    border: none;
+  }
+}
