@@ -7,16 +7,19 @@ import styles from "./JobListingFilters.module.css";
 
 export default function JobListingFilters() {
   return (
-    <div className={styles.jobListingFilters}>
-      <Filter option="UI/UX Design" img={SearchImg} />
-      <Filter title="Location" option="Abuja,Nigeria" img={LocationImg} />
-      <Filter option="Job Type" img={BriefcaseImg} />
-      <Filter option="Salary Range" img={GraphImg} />
-      <button id={styles.search_btn}>Search Job</button>
+    <div className={styles.jobListingFilters_main}>
+      <div className={styles.jobListingFilters}>
+        <Filter option="UI/UX Design" img={SearchImg} />
+        <Filter title="Location" option="Abuja,Nigeria" img={LocationImg} />
+        <Filter option="Job Type" img={BriefcaseImg} />
+        <Filter option="Salary Range" img={GraphImg} />
+        <button id={styles.search_btn}>Search Job</button>
+      </div>
+      <button id={styles.search_btn_mobile}>Search Job</button>
     </div>
   );
 }
- export function Filter({ option, img, title }) {
+export function Filter({ option, img, title }) {
   return (
     <div className={styles.filters}>
       <img src={img} alt="filter icon" />
