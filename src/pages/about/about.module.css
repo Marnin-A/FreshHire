@@ -69,13 +69,16 @@
 #users {
   display: flex;
   justify-content: center;
+  height: auto;
+  width: 100%;
   margin-bottom: 2.5625em;
 }
 #users > img {
   width: 60%;
   margin-top: 4%;
-  margin-left: 8%;
-  height: auto;
+  padding-left: 8%;
+  display: grid;
+  place-items: center;
 }
 .difference_bottom_info {
   display: flex;
@@ -163,6 +166,10 @@
   border: 1px solid #0f5e36;
 }
 @media only screen and (max-width: 1000px) {
+  .explore {
+    padding: 5.1875em 2.75em;
+    margin-bottom: -6em;
+  }
   .explore_body {
     display: flex;
     flex-direction: column;
@@ -170,8 +177,41 @@
   .explore_body > div {
     width: 100%;
   }
+  .difference_bottom_header {
+    text-align: center;
+  }
+  .difference_bottom {
+    background-position: 50% 50%;
+  }
+  #users {
+    width: 100vw;
+  }
+  #users > img {
+    width: 80%;
+  }
+  .difference_bottom_info {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .difference_info {
+    width: 40%;
+  }
+  .free_profile {
+    padding: 5.1875em 2.75em;
+  }
+  .profile_header {
+    margin-top: 0%;
+  }
+  .profile_mid {
+    max-width: 100%;
+    margin-bottom: 0em;
+  }
   .free_profile_bottom {
     display: flex;
     flex-direction: column;
+  }
+  .premium_profile {
+    padding: 5.1875em 2.75em;
+    max-width: 100%;
   }
 }
